@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 function NewPlantForm({ updatePlants }) {
   /*set the name, image and price to an empty tring so that we can keep
   track of them and update them later */
-  const [name, setName] = useState(""); 
-  const [image, setImage] = useState("");
-  const [price, setPrice] = useState("");
+  const [name, setName] =useState (""); 
+  const [image, setImage]=useState ("") ;
+  const [price, setPrice] =useState ("");
 
   const handleSubmit = (e) => {
     /*this get triggered when the form is submitted.
