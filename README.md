@@ -11,7 +11,7 @@ Plantsy is a web application designed for the admin side of a plant store. The a
 ## Installation
 Clone the repository :git clone https://github.com/wahome-joy/react-hooks-cc-plantshop.git
 
-## Setup
+## Usage
 
 1. Run `npm install` in your terminal.
 2. Run `npm run server`. This will run your backend on port `6001`.
